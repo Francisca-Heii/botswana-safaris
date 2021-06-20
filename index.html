@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
 
 	
     <title>Explore Botswana Safaris</title>
@@ -96,6 +102,30 @@
                 <span class="sr-only">Next</span>
               </a>
         </div>
+        <a href="#section1"><div class="bounce"></div></a>
+    </section>
+
+    <section class="datainfo fontsize txt-color-info1" id="section1">
+        <div class="col-md-12 pad_bot_25">
+        <p class="text-center">About</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="text-center">Introduction</p>
+                <p class="txtdata">Botswana is a very special place – as one of Africa’s most stable and peaceful countries it’s no wonder that this amazing area is well known for being one of the top luxury safari hot spots in the world. Of course this means that you also find some of the best luxury safari lodges and camps in all of Africa. The Kalahari Desert covers about 70% of Botswana, making it one of the most sparsely populated countries in the word.
+                    Yet this landlocked country is home to an abundance of plains game, huge herds of buffalo and plenty of Africa’s apex predators.
+                    The magnificent Chobe National Park is a refuge for the world’s biggest population of Kalahari elephants, and the virtually untouched Okavango Delta
+                    is a World Heritage Site and arguably one of Nature’s greatest masterpieces – one of Africa’s last remaining Gardens of Eden.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="text-center">
+                    <video id="video1" width="450" height="300" controls preload="auto">
+                        <source src="assets/images/Okavango-Delta&Chobe-Park.mp4" type="video/mp4">  
+                    </video>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Footer-->
     <footer class="page-footer font-small mdb-color footerbackclolor">
@@ -132,9 +162,23 @@
 
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+			if (this.hash !== "") {
+			  event.preventDefault();
+			  var hash = this.hash;
+			  $('html, body').animate({
+				scrollTop: $(hash).offset().top
+			  }, 800, function(){
+				window.location.hash = hash;
+			  });
+			} 
+		  });
+		});
+</script>
+
+    
     
 </body>
 </html>

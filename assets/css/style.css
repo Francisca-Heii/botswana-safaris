@@ -138,3 +138,59 @@ a.footerlink{
 .fa-facebook:hover{
     background-color:#33efef !important;
 } */
+
+/* bounce */
+a{
+    transition: all 0.3s ease-in-out;
+}
+
+.bounce {
+    content: "";
+	z-index: 10;
+	position: absolute;
+	bottom: 9px;
+	left: 50% ;
+	width: 60px;
+	height: 40px ;
+	margin-left:-30px;
+	/* background-image: url("../images/downarrow1.png"); */
+    background: url("../images/downarrow6.png");
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+    opacity:0.7
+}
+
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+
+.carousel-caption {    
+    bottom: 120px;
+}   
+.carousel-caption p {    
+    font-size:20px;
+}   
