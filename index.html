@@ -19,38 +19,35 @@
     <title>Explore Botswana Safaris</title>
 </head>
 <body class="body">
-    <!--Header-->>
+    <!--Header starts-->
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light1">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo_200x200_1.png" width="100" height="100"/></a>
-            <button class="navbar-toggle" data-target="#navbarNav" data-toggle="collapse" aria-expanded="true">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line" style="margin-bottom: 0%;"></span>
+        <nav class="navbar navbar-expand-md navbar-light bg-light1">			
+			<a class="navbar-brand" href="index.html"><img src="assets/images/logo_200x200_1.png" width="100"
+					height="100" /></a>
+            <button class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" aria-expanded="true" >
+                <span class="line"></span> 
+                <span class="line"></span> 
+                <span class="line" style="margin-bottom: 0;"></span>
             </button>
-            <div class="col-md-12 collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto ">&nbsp;</ul>
-                <ul class="navbar-nav mr-auto">&nbsp;;</ul>
-                <ul class="navbar-nav mr-auto">&nbsp;</ul>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a>
-                    </li>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link">Places to Explore</a>>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a>>
-                    </li>
-                </ul>
-            </div>
-        </nav> 
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mr-auto">&nbsp;					
+				</ul>
+                <ul class="navbar-nav mr-auto">&nbsp;					
+				</ul>
+                <ul class="navbar-nav mr-auto">&nbsp;					
+				</ul>
+				<ul class="navbar-nav mr-auto">					
+					<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Place To Explore</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>           
+		</nav>
     </header>
-    <!--Header-->
+    <!--Header ends-->
     <section>
-        <div class="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="position: relative;">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="position: relative;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/images/sliders/slider1-elephant.png" width="1200" height="500" class="d-block w-100" alt="...">
@@ -104,7 +101,7 @@
         </div>
         <a href="#section1"><div class="bounce"></div></a>
     </section>
-
+    
     <section class="datainfo fontsize txt-color-info1" id="section1">
         <div class="col-md-12 pad_bot_25">
         <p class="text-center">About</p>
@@ -121,17 +118,62 @@
             <div class="col-md-6">
                 <div class="text-center">
                     <video id="video1" width="450" height="300" controls preload="auto">
-                        <source src="assets/images/Okavango-Delta&Chobe-Park.mp4" type="video/mp4">  
+                        <source src="assets/images/video/Okavango-Delta&Chobe-Park.mp4" type="video/mp4">  
                     </video>
                 </div>
             </div>
         </div>
     </section>
-    <!--Footer-->
+
+
+    <section class="datainfo fontSize txt-color-info1">
+		<div class="col-md-12 pad_bot_25">
+			<p class="text-center pad_bot_25">Place To Explore</p>
+		</div>
+		<div class="row">
+			<div class="col-md-6">				
+				<div class="imghover">
+					<figure>
+						<img src="assets/images/okavango-delta_450_300.png" width="450" height="300" alt=''>
+						<div class="imgtext">
+							Okavango Delta
+						</div>
+						<figcaption>
+							<div style="width:80%;text-align: left;">						
+								<p class="hovertext">The Okavango is very good for birders as huge numbers of waterfowl and raptors reside there, but you also find elephant, zebra, buffalo, wildebeest, giraffe, hippo, crocodile, lion and kudu.</p>
+								<h5 class="imagehead">Okavango Delta</h5>	
+							</div>							
+						</figcaption>
+					</figure>
+				</div>				
+				<p class="txtdata">The Okavango Delta is the largest inland delta in the world covering an area of 1.6m hectares as well as being a world heritage site.
+					The best way to explore the ‘Delta’ is on foot and by mokoro (dug out canoe) where polers guide you through the labyrinth of channels, standing like gondoliers at the rear of the boat. </p>
+			</div>
+			
+			<div class="col-md-6">				
+				<div class="imghover">
+					<figure>
+						<img src="assets/images/chobe-park_450_300.png" width="450" height="300" alt=''>
+						<div class="imgtext">
+							Chobe National Park
+						</div>
+						<figcaption>
+							<div style="width:80%;text-align: left;">						
+								<p class="hovertext">Chobe park is noted for having a population of lions which prey on elephants, mostly calves or juveniles, but also subadults.</p>
+								<h5 class="imagehead">Chobe National Park</h5>	
+							</div>							
+						</figcaption>
+					</figure>
+				</div>				
+				<p class="txtdata">Chobe National Park is Botswana's first national park, and also the most biologically diverse. Located in the north of the country, it is Botswana's third largest park, after Central Kalahari Game Reserve and Gemsbok National Park, and has one of the greatest concentrations of game in all of Africa.</p>			
+			</div>
+		</div>
+	</section>
+    
+    <!--Footer starts-->
     <footer class="page-footer font-small mdb-color footerbackclolor">
         <div class="container text-center">
 
-            <!--Social media links-->
             <div class="text-center">
                 <ul class="list-unstyled list-inline">
                     <li class="list-inline-item">
@@ -148,19 +190,18 @@
                         <a class="btn-floating btn-sm rgba-white-slight mx-1">
                             <i class="fa fa-youtube-play fasize"></i>
                         </a>
-                    </li
+                    </li>
                 </ul> 
             </div>
-            <!--Social meda links-->
             <p class="text-center">@ 2021 Copyright:
                 <a href="#" class="footerlink">
                     <strong>botswanasafari.com</strong>
                 </a>
             </p>
         </div>
-
-
     </footer>
+    <!--Footer ends-->
+
 
     <script>
 		$(document).ready(function(){

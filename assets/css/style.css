@@ -193,4 +193,76 @@ a{
 }   
 .carousel-caption p {    
     font-size:20px;
-}   
+}  
+
+/*--------------------------------------------*/
+
+/*-------image hover-----------*/
+div.imghover {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {    
+    overflow: hidden; position:relative;
+}
+
+figure img {
+    height: 400px; 
+    transition: all 0.5s linear;            
+}
+
+figcaption{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%; 
+    height: 100%;
+    color: white;            
+    display: flex !important;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    opacity: 0;       
+}
+figcaption p{
+    padding-top: 20px; 
+    padding-bottom: 20px;           
+}
+
+figure:hover img{
+   transform:scale(1.3)
+}
+figure:hover div.imgtext{
+    display:none;
+ }
+figure:hover figcaption{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;            
+}
+.hovertext{
+    font-size: 13px;
+    text-justify: left;
+    padding: 10 10px;
+    color:white;
+    border-bottom: 1px solid white;
+}
+h5.imagehead{
+    text-align: left;
+}
+.imgtext{
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFF;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size:22px;
+    text-align: center;
+}
+  
