@@ -225,6 +225,42 @@
                 </div>
             </div>
         </section>
+		<section class="article-section" id="contactUsSection">
+            <div class="col-md-12">
+                <p class="article-header text-center">Contact US</p>
+                <p class="contact-message">Thank you for your interest!</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p id="successmsg" class="successmessage"></p>
+                    <form id="myForm" class="ui form padding_25px" action="" method="post">
+                        <div class="field">
+                            <label>First Name</label>
+                            <input type="text" id="txtfname" name="from_first_name" placeholder="First Name" />
+                        </div>
+                        <div class="field">
+                            <label>Last Name</label>
+                            <input type="text" id="txtlname" name="from_last_name" placeholder="Last Name" />
+                        </div>
+
+                        <div class="field">
+                            <label>Email</label>
+                            <input type="text" id="txtemail" name="from_email" placeholder="Email" />
+                        </div>
+                        <div class="field">
+                            <label>Message</label>
+                            <textarea id="txtmessage" name="message"></textarea>
+                        </div>
+                        <button class="ui button" type="submit" id="submitBtn">Submit</button>
+                        <div class="ui error message"></div>
+                    </form>
+                </div>
+                <div class="col-md-6 padding_25px">
+                    <!-- <h3>My Google Maps Demo</h3> -->
+                    <div id="map"></div>
+                </div>
+            </div>
+        </section>
 
 
 		

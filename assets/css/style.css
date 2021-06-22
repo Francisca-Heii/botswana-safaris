@@ -204,5 +204,17 @@ a.footer-link {
         padding-left: 70px;
         font-size: 30px;
     }
-
+    .article-section .contact-message {
+        font-size: 20px;
+    }
+    #map {
+        height: 100%;
+    }
+    .okavango-banner-image,
+    .chobe-banner-image {
+        height: 470px;
+    }
 }
+
+
+
