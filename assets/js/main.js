@@ -23,6 +23,7 @@ $(document).ready(function () {
             if (imageName) {
                 const imageUrl = 'assets/images/animals/hover/' + imageName;
                 $('.animal-tooltip img').attr('src', imageUrl);
+                $('.animal-tooltip img').attr('width', '150px');
                 $('.animal-tooltip').css('display', 'block');
                 $('.animal-tooltip').css('top', event.pageY);
                 $('.animal-tooltip').css('left', event.pageX);
