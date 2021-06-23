@@ -233,6 +233,10 @@ a.footer-link {
     height: 400px;
 }
 
+#chobe-map {
+    height: 400px;
+}
+
 @media (min-width: 1025px) {
     .article-section {
         padding-top: 70px;

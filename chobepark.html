@@ -151,6 +151,15 @@
         <div class="animal-tooltip">
             <img src="assets/images/animals/hover/African_elephant.jpg" />
          </div>
+
+          <!-- Show google map for Accomodation, Restaurant and Game Reserve in Chobe National Park-->
+        <!--Google map start-->
+        <section>
+            <div class="col-md-12 padding_25px">
+                <div id="chobe-map"></div>
+            </div>
+        </section>
+        <!--Google map end-->
         
         <!-- Footer -->
         <footer class="page-footer font-small mdb-color footer-back-clolor">
@@ -198,5 +207,13 @@
             <!-- Footer -->
         </footer>
         <script src="assets/js/main.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script src="assets/js/chobeMap.js"></script>
+        <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWTwq7VysPD5Fq3tLdiVQz7RKBtgRJcag&callback=initChobeMap&libraries=&v=weekly"
+            async
+            defer
+        ></script>
     </body>
 </html>
