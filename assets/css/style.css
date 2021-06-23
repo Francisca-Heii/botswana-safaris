@@ -202,6 +202,22 @@ a.footer-link {
     margin-top: 25px;
 }
 
+.animal-image {
+    height: 75px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.animal-tooltip {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border: 5px solid #f4f1f1;
+    border-radius: 5px;
+}
+
 @media (min-width: 1025px) {
     .article-section {
         padding-top: 70px;
