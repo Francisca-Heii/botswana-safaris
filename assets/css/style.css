@@ -200,6 +200,11 @@ a.footer-link {
     .article-image-content {
         font-size: 30px;
     }
+
+    .article-image-content-description {
+        font-size: 22px;
+    }
+
     .article-detail-link {
         padding-left: 70px;
         font-size: 30px;
