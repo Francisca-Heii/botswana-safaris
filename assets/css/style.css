@@ -229,6 +229,10 @@ a.footer-link {
     border-radius: 5px;
 }
 
+#okavango-map {
+    height: 400px;
+}
+
 @media (min-width: 1025px) {
     .article-section {
         padding-top: 70px;
