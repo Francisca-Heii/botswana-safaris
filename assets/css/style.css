@@ -187,6 +187,21 @@ a.footer-link {
     color: black;
 }
 
+.chobe-banner-image-2 {
+    background-image: url('/assets/images/chobe-4.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 235px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    display: block;
+}
+
+.second-banner {
+    margin-top: 25px;
+}
+
 @media (min-width: 1025px) {
     .article-section {
         padding-top: 70px;
@@ -227,13 +242,20 @@ a.footer-link {
     #map {
         height: 100%;
     }
+
     .okavango-banner-image,
-    .chobe-banner-image {
+    .chobe-banner-image,
+    .okavango-banner-image-2,
+    .chobe-banner-image-2 {
         height: 470px;
     }
 
     .visitor-detail-link p {
         font-size: 18px;
+    }
+
+    .second-banner {
+        margin-top: 50px;
     }
 }
 
