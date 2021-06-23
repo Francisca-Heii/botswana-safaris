@@ -149,6 +149,7 @@ a.footer-link {
     border-radius: 50%;
 }
 
+
 .banner-container {
     padding: 0;
 }
@@ -173,6 +174,17 @@ a.footer-link {
     position: relative;
     background-position: center;
     display: block;
+}
+
+.visitor-detail-link,
+.wildlife {
+    display: block;
+    text-align: center;
+}
+
+.visitor-detail-icon {
+    font-size: 80px;
+    color: black;
 }
 
 @media (min-width: 1025px) {
@@ -219,7 +231,12 @@ a.footer-link {
     .chobe-banner-image {
         height: 470px;
     }
+
+    .visitor-detail-link p {
+        font-size: 18px;
+    }
 }
+
 
 
 
