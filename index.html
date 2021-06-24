@@ -37,7 +37,7 @@
                 </button>
                 <div class="col-md-12 collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+                        <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="#aboutSection" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="#placeToExploreSection" class="nav-link">Places To Explore</a></li>
                         <li class="nav-item"><a href="#contactUsSection" class="nav-link">Contact</a></li>
@@ -234,19 +234,19 @@
             <div class="row">
                 <div class="col-md-6">
                     <p id="successmsg" class="successmessage"></p>
-                    <form id="myForm" class="ui form padding_25px" action="" method="post">
+                    <form id="myForm" class="ui form padding_25px">
                         <div class="field">
                             <label>First Name</label>
-                            <input type="text" id="txtfname" name="from_first_name" placeholder="First Name" />
+                            <input type="text" id="txtfname" name="from_first_name" placeholder="First Name" required pattern="[A-Za-z]*"/>
                         </div>
                         <div class="field">
                             <label>Last Name</label>
-                            <input type="text" id="txtlname" name="from_last_name" placeholder="Last Name" />
+                            <input type="text" id="txtlname" name="from_last_name" placeholder="Last Name" required  pattern="[A-Za-z]*">
                         </div>
 
                         <div class="field">
                             <label>Email</label>
-                            <input type="text" id="txtemail" name="from_email" placeholder="Email" />
+                            <input type="email" id="txtemail" name="from_email" placeholder="Email" required/>
                         </div>
                         <div class="field">
                             <label>Message</label>
