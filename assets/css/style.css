@@ -3,6 +3,7 @@
     padding: 0;
 }
 body {
+    width: 100%;
     font-family: 'Roboto', sans-serif !important;
     color: rgba(0, 0, 0, 0.87) !important;
     font-weight: lighter;
@@ -51,33 +52,32 @@ body {
 
 /* Body */
 .article-section {
-    padding-top: 35px;
+    width: 100%;
+    padding: 0 1rem;
 }
 
 .article-description {
     font-size: 16px;
     text-align: justify;
-    padding: 25px;
 }
 
 .article-header {
     font-weight: bold;
     font-size: 22px;
+    padding-bottom: 1rem;
 }
 
 .article-video {
     width: 100%;
     max-height: 100%;
-    padding: 25px;
-    display: block;
 }
 
 .article-image {
     width: 100%;
+    height: 100%;
 }
 
 .article-figure {
-    padding: 25px;
     margin: 0;
 }
 
@@ -108,7 +108,6 @@ body {
 
 .article-detail-link {
     display: block;
-    padding-left: 25px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -237,6 +236,10 @@ a.footer-link {
     height: 400px;
 }
 
+.carousel-caption p {
+	font-weight: bold;
+}
+
 @media (min-width: 1025px) {
     .article-section {
         padding-top: 70px;
@@ -249,12 +252,11 @@ a.footer-link {
     .article-description {
         font-size: 21px;
         text-align: justify;
-        padding: 70px;
     }
 
     .carousel-caption p {
-        font-size: 20px;
-    }
+		font-size: 28px;
+	}
 
     .article-image-hover {
         font-size: 25px;
@@ -268,7 +270,7 @@ a.footer-link {
     }
 
     .article-detail-link {
-        padding-left: 70px;
+        padding: 2rem 0;
         font-size: 30px;
     }
     .article-section .contact-message {
@@ -292,6 +294,10 @@ a.footer-link {
     .second-banner {
         margin-top: 50px;
     }
+
+    .carousel-caption h1 {
+		font-size: 45px;
+	}
 }
 
 

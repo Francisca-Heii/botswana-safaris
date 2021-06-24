@@ -1,6 +1,6 @@
 # Explore Botswana Safaris #
 
-[View deployed site here]()
+[View deployed site here](https://francisca-heii.github.io/botswana-safaris)
 
  Safaris in Botswana is a website designed for **tourists and individuals** who want to visit **safaris in Botswana** to view a variety of wildlife in their natural habitat, take part in adventurous outdoor activities and discover the real Africa. Botswana is a land of sweeping spaces where wetlands thrive and wildlife abounds. Venture into **two of the country’s most treasured wilderness areas** to discover an astounding array of flora and fauna on a variety of excursions.
 
@@ -90,13 +90,23 @@ and the [Botswana Tourism](https://www.botswanatourism.co.bw/explore/chobe-natio
 
 ## Fonts ##
 
-The project has a main front of
+I choose to use **Roboto fonts** through out the  entire website alongside with **Sans Serief** as a fall back. If by any means Roboto fails to load, Sans Serief will load to back up the Roboto font. The font is clear and easy on the eyes.
 
-**Sans-Serif** is used as the default backup font incases where these fonts have difficulty loading
+## Color Scheme ##
+Safaris in Botswana website is colorful enough in its own way. It has a lot of bright and colorful images, ranging from sliders to wildlife images, and wanted to keep it simple and nice. I added a litle bit of color on the navigation bar and the footer. The navigation bar has a **hex color #2f2f29**, favicon and footer **hex #6c631a**. The word **Botswana Safaris**
+on the favicon and social links I used a background color of **Orage** and **white** on the navigation links.
+ The main color scheme used is the **default white color**
 
+ ## Icons ##
+ **Icons** used are from [Font Awesome](https://fontawesome.com/), and are **self explanatory**.
 
+ * ![time](/assets/images/README-images/time.jpg)
+ * ![alt season](/assets/images/README-images/season.jpg)
+ * ![alt weather](/assets/images/README-images/time.jpg)
 
 ## Features ##
+
+This is a single web application
 
 
 
