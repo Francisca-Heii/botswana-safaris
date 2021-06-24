@@ -64,7 +64,7 @@ window.onload = function () {
                 function (response) {
                     console.log(response);
                     document.getElementById('successmsg').style.display = 'block';
-                    document.getElementById('successmsg').innerHTML = 'Email send successfully';
+                    document.getElementById('successmsg').innerHTML = 'Email sent successfully';
                     document.getElementById('txtfname').value = '';
                     document.getElementById('txtlname').value = '';
                     document.getElementById('txtemail').value = '';
