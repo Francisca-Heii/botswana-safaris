@@ -158,7 +158,7 @@ a.footer-link {
 }
 
 .okavango-banner-image {
-    background-image: url('/assets/images/okav-2.jpg');
+    background-image: url('../images/okav-2.jpg');
     background-size: 100%;
     width: 100%;
     height: 235px;
@@ -169,7 +169,7 @@ a.footer-link {
 }
 
 .chobe-banner-image {
-    background-image: url('/assets/images/bird-4644652_1920.jpg');
+    background-image: url('../images/bird-4644652_1920.jpg');
     background-size: 100%;
     width: 100%;
     height: 235px;
