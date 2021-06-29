@@ -36,7 +36,7 @@
                     <span class="line" style="margin-bottom: 0"></span>
                 </button>
                 <div class="col-md-12 collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto" id="highlight">
                         <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="#aboutSection" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="#placeToExploreSection" class="nav-link">Places To Explore</a></li>
@@ -154,14 +154,22 @@
                     <p class="article-description">
                         The Kalahari Desert covers about 70% of Botswana, making it one of the most sparsely populated
                         countries in the word. Yet this landlocked country is home to an abundance of plains game, huge
-                        herds of buffalo and plenty of Africa’s apex predators. The magnificent Chobe National Park is a
+                        herds of buffalo and <strong> plenty of Africa’s apex predators.</strong> The magnificent Chobe National Park is a
                         refuge for the world’s biggest population of Kalahari elephants, and the virtually untouched
-                        Okavango Delta is a World Heritage Site and arguably one of Nature’s greatest masterpieces – one
-                        of Africa’s last remaining Gardens of Eden.
+                        Okavango Delta is a <strong>World Heritage Site and arguably one of Nature’s greatest masterpieces – one
+                            of Africa’s last remaining Gardens of Eden.</strong>
                     </p>
+                    <p class="article-description">
+                        Botswana really is one of the ultimate safari destinations in Africa, their high income low impact tourism 
+                        policy means the safari camps and lodges of the Okavango Delta are spread out and exclusive, so your game viewing
+                        is always completely private and usually spectacular. Don’t overlook the Kalahari and the Makgadikgadi Pans which 
+                        are by far two of the most magical places in Africa – <strong>they have a lot going on from a huge zebra and wildebeest migration, 
+                        to meerkats, to the oldest tribe in Africa, the San bush people.</strong>
+                    </p>
+            
                 </div>
                 <div class="col-md-6">
-                    <div class="article-section">
+                    <div class="article-description">
                         <video id="myvideo" class="article-video" controls>
                             <source src="assets/images/video/Okavango-Delta&Chobe-Park.mp4" type="video/mp4" />
                         </video>
@@ -178,19 +186,23 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <figure class="article-figure article-figure-1">
+                    <figure class="article-figure article-figure-1 container">
                         <div class="article-figure-content">
                             <img class="article-image" src="assets/images/okavango-delta_450_300.png" alt="..." />
-                            <figcaption class="article-image-hover article-image-hover-1">
-                                <div class="article-image-content">
-                                    <p>Okavango Delta</p>
-                                    <p class="article-image-content-description">
-                                        The Okavango is very good for birders as huge numbers of waterfowl and raptors
-                                        reside there, but you also find elephant, zebra, buffalo, wildebeest, giraffe,
-                                        hippo, crocodile, lion and kudu.
-                                    </p>
+                         <!--   <figcaption class="article-image-hover article-image-hover-1">-->
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>Okavango Delta</p>
+                                        <p>
+                                            The Okavango is very good for birders as huge numbers of waterfowl and raptors
+                                            reside there, but you also find elephant, zebra, buffalo, wildebeest, giraffe,
+                                            hippo, crocodile, lion and kudu.
+                                        </p>
+                                        
+                                    </div>
+                                   
                                 </div>
-                            </figcaption>
+                         <!--   </figcaption> -->
                         </div>
                     </figure>
                     <a class="article-detail-link" href="okavangodelta.html">Okavango Delta</a>
@@ -204,18 +216,22 @@
                 </div>
 
                 <div class="col-md-6">
-                    <figure class="article-figure article-figure-2">
+                    <figure class="article-figure article-figure-2 container">
                         <div class="article-figure-content">
                             <img class="article-image" src="assets/images/chobe-park_450_300.png" alt="..." />
-                            <figcaption class="article-image-hover article-image-hover-2">
-                                <div class="article-image-content">
-                                    <p>Chobe National Park</p>
-                                    <p class="article-image-content-description">
-                                        Chobe park is noted for having a population of lions which prey on elephants,
-                                        mostly calves or juveniles, but also subadults.
-                                    </p>
+                         <!--  <figcaption class="article-image-hover article-image-hover-2"> --> 
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>Chobe National Park</p>
+                                        <p>
+                                            Chobe park is noted for having a population of lions which prey on elephants,
+                                            mostly calves or juveniles, but also subadults.
+                                        </p>
+
+                                    </div>
+                                   
                                 </div>
-                            </figcaption>
+                          <!--  </figcaption> -->
                         </div>
                     </figure>
                     <a href="chobepark.html" class="article-detail-link">Chobe National Park </a>
@@ -232,7 +248,7 @@
          <!-- Contact us begin-->
 		<section class="article-section" id="contactUsSection">
             <div class="col-md-12">
-                <p class="article-header text-center">Contact US</p>
+                <p class="article-header text-center">Contact Us</p>
                 <p class="contact-message">Thank you for your interest!</p>
             </div>
             <div class="row">
@@ -304,7 +320,7 @@
             </div>
             <!-- Footer stop-->
         </footer>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>//
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
         <script type="text/javascript" src="assets/js/sendEmail.js"></script>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
         <script src="assets/js/maps.js"></script>
@@ -314,6 +330,10 @@
             async
             defer
         ></script>
+        
+
+
+        
 
         <script src="assets/js/main.js"></script>
     </body>
