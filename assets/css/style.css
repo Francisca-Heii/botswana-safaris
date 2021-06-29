@@ -50,7 +50,7 @@ body {
     padding: 25px;
 }
 
-/* Body */
+/* Article */
 .article-section {
     padding: 0 1rem;
 }
@@ -145,6 +145,7 @@ a.footer-link {
     color: #f5ab5e;
 }
 
+/* Carousel and images style */
 .carousel-indicators li {
     width: 15px;
     height: 15px;
@@ -215,6 +216,8 @@ a.footer-link {
     margin-top: 25px;
 }
 
+
+/*  Wild life animal styles */
 .animal-image {
     height: 75px;
     margin-top: 10px;
@@ -231,6 +234,7 @@ a.footer-link {
     border-radius: 5px;
 }
 
+/* google map style */
 #okavango-map {
     height: 400px;
 }
@@ -239,6 +243,8 @@ a.footer-link {
     height: 400px;
 }
 
+
+/* Slider carousel- caption style */
 .carousel-caption {
     margin-top: 20px;
 }
@@ -251,6 +257,7 @@ footer .fa {
     color: #f5ab5e;
 }
 
+/*  Media query  */
 @media (max-width: 700px) {
     .carousel-caption h1 {
         font-size: 20px;
