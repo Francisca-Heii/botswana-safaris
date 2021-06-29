@@ -132,22 +132,25 @@ I choose to use **Roboto fonts** through out the  entire website alongside with 
 ## Color Scheme ##
 Taking into consideration the colors that came with the logo, I decided to use them as the main colors for my website.
 
-![color scheme](README-images/color.png)
-
+![color scheme](assets/images/README-images/color.png)
 
 The site has plenty of bright, colorful images, video and maps. I wanted to keep it nice and simple. I added a litle bit of color on the navigation bar and the footer. The navigation bar has a **hex color #2f2f29**, favicon and footer **hex #6c631a**. The word **Botswana Safaris**
 on the favicon and social links I used a background color of **Orage** and **white** on the navigation links.
- The main color scheme used is the **default white color**
+ The main color scheme used is the **default white color**.
 
- ## Logo ##
  
-
  ## Icons ##
  **Icons** used are from [Font Awesome](https://fontawesome.com/), and are **self explanatory**.
 
- * ![time](/assets/images/README-images/time.jpg)
- * ![alt season](/assets/images/README-images/season.jpg)
- * ![alt weather](/assets/images/README-images/time.jpg)
+
+  ![time](/assets/images/README-images/time.jpg)
+  ![alt season](/assets/images/README-images/season.jpg)
+  ![alt weather](/assets/images/README-images/time.jpg)
+
+
+ ## Images ##
+
+
 
 ## Features
 
