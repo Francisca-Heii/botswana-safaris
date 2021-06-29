@@ -32,4 +32,9 @@ $(document).ready(function () {
         .mouseleave(() => {
             $('.animal-tooltip').css('display', 'none');
         });
+
+        $('#highlight a').click(function(e) {
+            $('#highlight a').removeClass('current_page_item');
+            $(this).addClass('current_page_item');
+        });
 });

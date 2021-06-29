@@ -36,7 +36,7 @@
 					<span class="line" style="margin-bottom: 0"></span>
 				</button>
 				<div class="col-md-12 collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav mr-auto">
+					<ul class="navbar-nav mr-auto" id="highlight">
 					    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 						<li class="nav-item"><a href="#aboutSection" class="nav-link">About</a></li>
 						<li class="nav-item"><a href="#wildlife" class="nav-link">Places to Explore</a></li>
@@ -80,6 +80,15 @@
                     <h3>Best time to visit</h3>
                     <p>August to October (Best at the riverfront area)</p>
                 </div>
+
+                <div class="col-md-4 visitor-detail-link">
+                    <a class="btn-floating btn-sm" href="#">
+                        <i class="fa fa-sun-o visitor-detail-icon"></i>
+                    </a>
+                    <h3>Best weather</h3>
+                    <p>May to August (Less hot during the day)</p>
+                    
+                </div>
                 <div class="col-md-4 visitor-detail-link">
                     <a class="btn-floating btn-sm" href="#">
                         <i class="fa fa-clock-o visitor-detail-icon"></i>
@@ -87,14 +96,21 @@
                     <h3>High season</h3>
                     <p>July to October (The park gets crowded)</p>
                 </div>
-                <div class="col-md-4 visitor-detail-link">
-                    <a class="btn-floating btn-sm" href="#">
-                        <i class="fa fa-sun-o visitor-detail-icon"></i>
-                    </a>
-                    <h3>Best weather</h3>
-                    <p>May to August (Less hot during the day)</p>
-                </div>
+               
             </div>
+
+            <br>
+                <center>
+                    <div class="col-md-2">
+                        <div id="openweathermap-widget-12"></div>
+                        <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+                        <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 12,cityid: '933677',appid: '28ab9d51e8f37a8847abacee48914614',units: 'metric',containerid: 'openweathermap-widget-12',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+                    </div>
+                </center>
+
+                <br>
+
+
         </section>
 
         <section class="second-banner">
