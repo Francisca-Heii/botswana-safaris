@@ -18,7 +18,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-
+        <!-- CSS style sheet loads here -->
         <link rel="stylesheet" href="assets/css/style.css" />
         <title>Safari in Botswana</title>
     </head>
@@ -26,6 +26,7 @@
     <body>
         <!--Header section starts-->
         <header>
+            <!-- Navigation bar -->
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html"
                     ><img src="assets/images/logo_200x200_1.png" width="100" height="100"
@@ -63,6 +64,7 @@
                     <li data-target="#carouselExampleFade" data-slide-to="4"></li>
                 </ol>
                 <div class="carousel-inner">
+                    <!-- 1st carousel item -->
                     <div class="carousel-item active">
                         <img
                             src="assets/images/slider/slider1-elephant.png"
@@ -76,6 +78,8 @@
                             <p>Includes all accomodation meals, activities and private guide.</p>
                         </div>
                     </div>
+                    <!-- end of 1st carousel item -->
+
                     <div class="carousel-item">
                         <img
                             src="assets/images/slider/slider2-lion.png"
@@ -168,6 +172,7 @@
                     </p>
             
                 </div>
+                <!-- About video -->
                 <div class="col-md-6">
                     <div class="article-description">
                         <video id="myvideo" class="article-video" controls>
@@ -188,8 +193,8 @@
                 <div class="col-md-6">
                     <figure class="article-figure article-figure-1 container">
                         <div class="article-figure-content">
+                            <!-- Animated image for Okavango Delta -->
                             <img class="article-image" src="assets/images/okavango-delta_450_300.png" alt="..." />
-                         <!--   <figcaption class="article-image-hover article-image-hover-1">-->
                                 <div class="overlay">
                                     <div class="text">
                                         <p>Okavango Delta</p>
@@ -202,7 +207,6 @@
                                     </div>
                                    
                                 </div>
-                         <!--   </figcaption> -->
                         </div>
                     </figure>
                     <a class="article-detail-link" href="okavangodelta.html">Okavango Delta</a>
@@ -219,7 +223,7 @@
                     <figure class="article-figure article-figure-2 container">
                         <div class="article-figure-content">
                             <img class="article-image" src="assets/images/chobe-park_450_300.png" alt="..." />
-                         <!--  <figcaption class="article-image-hover article-image-hover-2"> --> 
+                             <!-- Animated image for Chobe National Park -->
                                 <div class="overlay">
                                     <div class="text">
                                         <p>Chobe National Park</p>
@@ -231,7 +235,6 @@
                                     </div>
                                    
                                 </div>
-                          <!--  </figcaption> -->
                         </div>
                     </figure>
                     <a href="chobepark.html" class="article-detail-link">Chobe National Park </a>
@@ -318,6 +321,14 @@
                     </ul>
                 </div>
             </div>
+            <div class="row">
+                <div class="col text-center">
+                    <p><i class="fa fa-copyright" aria-hidden="true"></i>
+                        Copyright 2021 - Botswana Safaries | All Rights
+                        Reserved | Website by
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">Francisca Heii</a></p>
+                </div>
+            </div>
             <!-- Footer stop-->
         </footer>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
@@ -325,16 +336,13 @@
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
         <script src="assets/js/maps.js"></script>
         <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+        <!-- Loading Google map using JavaScript  -->
         <script
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWTwq7VysPD5Fq3tLdiVQz7RKBtgRJcag&callback=initMap&libraries=&v=weekly"
             async
             defer
         ></script>
-         
-
-
-        
-
+        <!-- Loading main.js  -->
         <script src="assets/js/main.js"></script>
     </body>
 </html>

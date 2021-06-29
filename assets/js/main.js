@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 $(document).ready(function () {
     //Places to explore hover
     $('.article-figure-1')

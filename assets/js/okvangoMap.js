@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //This method is called from google map API after load
 function initOkavangoMap() {
     //Create a map object using map element

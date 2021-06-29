@@ -359,6 +359,7 @@ footer .fa {
 	}
 }
 
+/* Animation for mouse hover on images */
 .container {
     position: relative;
     width: 100%;
@@ -392,13 +393,17 @@ footer .fa {
     -ms-transform: translate(-50%, -50%);
   }
 
+  /* Navigation Bar location indicator */
   .current_page_item {
     background-color: #6c631a;
     color: #FFF;
 }
 
 
-
-
-
-
+/* Centering div tags */
+.center {
+    margin: auto;
+  width: 10%;
+  border: 0px solid #73AD21;
+  padding: 0px;
+}
