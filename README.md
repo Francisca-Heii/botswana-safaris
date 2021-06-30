@@ -213,6 +213,157 @@ When viewed on mobile, the tooltip only display when the user clicks on the anim
 The next section is the Okavango map. It contains the controls needed to customize the display to the user's needs and to allow the user to focus on a specific area of interest. On the left-hand side, there are controls to the map to view on full screen,zoom in and out. To the left the user can choose to view either on map or setalite. The user can click on the marker to see places to lodge, eat and game reserves available in the Okavango Delta.
 
 
+## Technologies used ##
+---
+### Languages ##
+* HTML
+
+* CSS
+
+* JavaScript
+
+
+## Frameworks, Libraries and Programs ##
+
+* [Figma](https://balsamiq.com/wireframes/)
+   
+    For creating wireframes.
+
+* [Google Fonts](https://fonts.google.com/)  
+
+    Used for the fonts that appear on the site.
+
+* [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) 
+
+    Used for the icons that were included throughout the project.
+
+* [Favicon.io](https://fonts.google.com/) 
+
+    For generating the favicon. 
+
+* [TinyPNG](https://tinypng.com/)  
+
+    For resizing all the images
+
+* [BeFunky](https://www.befunky.com/create/)
+
+    For resizing all the images.
+
+* [Am I Responsive](http://ami.responsivedesign.is/?url=http://ami.responsivedesign.is/#)
+
+    For providing screenshots of the responsiveness of the website across several devices.
+
+* [emailJS](https://www.emailjs.com/)
+
+    Used to connect the contact form to an email service.
+
+* [Git](https://git-scm.com/)
+
+    For Version control.
+
+* [GitHub](https://github.com/)   
+
+    For storing the repository.
+
+* [GitHub Pages](https://pages.github.com/) 
+
+    For deploying the website live.
+
+* [jQuery](https://jquery.com/)
+   
+    This framework was used on the index page and places to explore to implement the carousel silder images and  animation.
+
+    [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+    Used throughout the project to implement the vast majority of the responsiveness in the design.
+
+
+    ## Application online ##
+    ---
+*  [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+
+    Used extensively to test responsiveness, javascript code etc.
+
+* [W3C CSS Validotor](https://jigsaw.w3.org/css-validator/)
+
+    Used to validate CSS3 code.
+
+* [W3C HTML Validator](https://validator.w3.org/)
+
+    Used to validate HTML5 code.
+    
+
+* [jshint](https://jshint.com/)
+
+    Used to check for errors and ommisions in the javascript code. 
+
+*  [Gitpod](https://www.gitpod.io/)  
+
+    For Integrated Development Environment.   
+
+
+    ### API's ###
+    ---
+* [Openweathermap](https://openweathermap.org/current)
+
+     Free API to get the current weather report. Need account to get API key. Rate Limiting: 60 calls per minute and 1,000,000 calls per month.
+
+     [google maps](https://cloud.google.com/maps-platform)
+
+     Free API to get geolocation of user. Usable without API key. No Rate limiting.
+
+
+     ### Deployment ###
+     ---
+     #### How the project was deployed on GitHub Pages: ####
+     ---
+
+     The project was coded in Gitpod, committed to Git and pushed to GitHub. The project was deployed from its Github repository using GitHub Pages.
+
+     The steps to deploy the site to GitHub pages are as follows:
+
+
+* Log into GitHub.
+* From the list of repositories on the screen, select Botswana-safaris.
+* From the menu items near the top of the page, select Settings.
+* Scroll down to the GitHub Pages section.
+* Under Source click the drop-down menu labelled None and select Master Branch
+* On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+* Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+### How to run this project locally: ###
+
+ *To clone this project from GitHub*
+
+* Created a folder named "mile-stone-pro" on desktop
+Go to GitHub
+* Under the repository's name, click clone or download
+* In the clone with HTTP section copy the url provided
+* Open the comand line and type "git bash"
+* Then change the current working directory to desktop then folder
+* type git "clone" and then paste the URL coppied from github
+* Press enter and the local cone is Created in the folder "mile-stone-pro" on you desktop.
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+    
+
+
+
 
 
 
