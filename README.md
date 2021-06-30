@@ -302,7 +302,43 @@ The next section is the Okavango map. It contains the controls needed to customi
     For Integrated Development Environment.   
 
 
-    ### API's ###
+    ### Testing ###
+    ---
+    
+    ### W3C ###
+    W3C Markup Validation Service and W3C CSS Validation Service have been used to check all the pages of the website for semantic and syntax errors.
+
+     * [W3C Markup validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    
+     The results are positive and the code is valid.
+
+    **style.css** 
+
+    *  No error detected in the style sheet.
+     ![style.css](assets/images/README-images/validation/css.jpg)
+
+
+    **index.html**  : Some **alt " "** attributes erros were detected and fixed that by giving a relevant name to the image referenced. Now no erros detected and showing three warnings.
+
+
+     ![index.html](assets/images/README-images/validation/index1.jpg)
+     
+     
+    **chobe natioanl park page** :
+      In the chobe national park page, some **alt " "** attributes erros were detected and fixed that by giving a relevant name to the image referenced. Now no erros detected and showing three warnings.
+
+     ![chobe.html](assets/images/README-images/validation/chobe2.jpg)
+
+
+**okavango delta page** :
+       some **alt " "** attributes erros were detected and fixed that by giving a relevant name to the image referenced. Now no erros detected and showing two warnings.
+
+       ### SHint ###
+
+      
+
+
+    ### API ###
     ---
 * [Openweathermap](https://openweathermap.org/current)
 
@@ -345,7 +381,52 @@ Go to GitHub
 * Press enter and the local cone is Created in the folder "mile-stone-pro" on you desktop.
 
 
+### Implementing API ###
+---
+ [emailJS](https://www.emailjs.com/)  is used in this project in order to manage the contact form of the website.
+ 
+  It is an API (Application Programming Interface), that allows emails management using JavaScript, without needing the server side.
 
+  To implement EmailJS take the following steps :
+
+  * Create an account by [Signing up.](https://dashboard.emailjs.com/sign-up) Free account are avaible and was used in this project limiting the number of email to 200 per month.
+
+  * On the dashboard, click on add new service, then select Gmail.
+  * Change the name to WxBrief and the service ID to wxbrief.
+ *  Click connect account and connect your desired Gmail account.
+* Click create service.
+* On the left-hand side of the dashboard, click on email templates.
+* Click on Create New Template.
+* In the content tab of the template fill out the template like below.
+* In the settings tab of the template, change the template ID to "contact-form".
+* Click save in the top right of the template.
+* On the left-hand side of the dashboard, click on integration.
+* Scroll down and copy your Access Token.
+* Paste this token into KEY.emailjs in the config.js file.
+
+#### OpenWeatherAPI: ####
+
+[OpenWeatherAPI](https://openweathermap.org/api) Used to generate live weather in places to explore.
+* Sign up for a free account for free [here.](https://home.openweathermap.org/users/sign_up)
+* Sign inot you account [here.](https://home.openweathermap.org/users/sign_in)
+* Copy the API Key.
+* Paste this key into weather.js.
+
+## Credits ##
+---
+**All the written subject's content provided on the website is the result of my research and are my own production**
+
+Resources used include: 
+
+* [Botswana Toursim](https://www.botswanatourism.co.bw/)
+
+* [Chobe NationalmPark](https://www.chobe.com/)
+
+* [Guide to visiting Chobe](https://drinkteatravel.com/guide-chobe-national-park-botswana/)
+
+* [Best-Botswana- Safaris](https://www.go2africa.com/destinations/okavango-delta/why-go)
+
+* [Okavango Delta](https://www.okavango.com/)
 
 
 
