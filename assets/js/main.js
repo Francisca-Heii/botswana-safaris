@@ -4,23 +4,28 @@ $(document).ready(function () {
     //Places to explore hover
     $('.article-figure-1')
         .hover(() => {
+            //Show the hover element
             $('.article-image-hover-1').css('display', 'block');
         })
         .mouseleave(event => {
+             //Hide the hover element
             $('.article-image-hover-1').css('display', 'none');
         });
 
     $('.article-figure-2')
         .hover(() => {
+             //Show the hover element
             $('.article-image-hover-2').css('display', 'block');
         })
         .mouseleave(event => {
+             //Hide the hover element
             $('.article-image-hover-2').css('display', 'none');
         });
 
     //Wild life hover functionality
     $('.wildlife img')
         .mouseenter(event => {
+            //Show the wildlife animal image when we hover
             let imageName = event.target.getAttribute('data-image');
             if (imageName) {
                 const imageUrl = 'assets/images/animals/hover/' + imageName;
@@ -32,11 +37,13 @@ $(document).ready(function () {
             }
         })
         .mouseleave(() => {
+            //Hide the wildlife animal image when we remove mouse
             $('.animal-tooltip').css('display', 'none');
         });
 
-        $('#highlight a').click(function(e) {
-            $('#highlight a').removeClass('current_page_item');
-            $(this).addClass('current_page_item');
-        });
+    $('#highlight a').click(function (e) {
+        //Highlight the nav link when we click on respective link
+        $('#highlight a').removeClass('current_page_item');
+        $(this).addClass('current_page_item');
+    });
 });

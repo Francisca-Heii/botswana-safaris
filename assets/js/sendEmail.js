@@ -1,3 +1,4 @@
+// Contact form which contains below fields
 $('.ui.form').form({
     fields: {
         name: {
@@ -37,6 +38,7 @@ var $form = $('.ui.form form'),
     message = $form.form('get value', 'message');
 
 window.onload = function () {
+    //Initializing emailjs with token
     emailjs.init('user_P1uyuwBbgzFz4afB7QMvF');
     document.getElementById('myForm').addEventListener('submit', function (event) {
         event.preventDefault();
@@ -62,6 +64,7 @@ window.onload = function () {
         if (from_fname1 != '' && from_email1 != '' && message != '') {
             emailjs.send('service_jyqlb78', 'template_wxnqq8d', templateParams).then(
                 function (response) {
+                    //Once email is successfully sent we are clearing the form and showing the message
                     console.log(response);
                     document.getElementById('successmsg').style.display = 'block';
                     document.getElementById('successmsg').innerHTML = 'Email sent successfully';

@@ -153,30 +153,81 @@ on the favicon and social links I used a background color of **Orage** and **whi
 
 
 ## Features
+---
+The website uses the same basic layout for each page. Each page has a responsive naviagtion bar with a logo placed on the left. Each page has a footer wih a copyright information and social media icons. The site is responsive to all screen sizes, this was achieved using Bootsrap  grid sysytem and css media queries.
 
-**Responsive on various size devices**
+Each page has its own image at the top. The home page having slider images about the Okavango Delta and the Chobe National Park. On the other hand, the Okavango Delta and Chobe National Park pages, each features a banner image to grab the user's attention.
 
-Mobile/small screen size :-
 
-* The site is designed for different screen sizes. The users can view the site on **mobile, tablet or desktop**. Bootsrap grid is used for **structure** of the webpage. I have used a series of containers, rows and columns to **layout and align content.** The bootrap grid system is built with **flexbox** and it is **fully responsive**.
-* The menu bar uses the **Boostrap navbar** functionality for **small screen** using the toggle capability for the drop down menu lsit from a **hamburger icon.**
-* The navbar will remain **fixed** at the top of the screen at all times when you scroll down the page for easy access.
-* The **logo and the hamburger** are suitably aligned on the same line.
-* The navbar links has a **black color** to make it standout from the site.
-* The **hamburger** has a green and white color to make it distinctive from the site.
-* The **logo and the hamburger** are suitably sizead on the same line for small screen.
+#### Home ####
 
-Desktop/Laptop :-
-* The
-* The menu bar uses the **Bootstrap navbar** functionality with the navigation links and a log on the left.
-* The navbar has a **black color** to make it standout from the site.
-* The **menu item** list has a white color and an orange color on hover.
+The home page features an **image carousel sliders** showing five different images with text one after another with fade effects. The main purpose of this carousel sliders is to make an impact when the user arrives on the site.
 
-## The interactive elements ##
-* The key feature of the site is the interactive visit of places to explore, search for accomodation, game reserve and a place to eat in that particular place. 
-* The user can click the **next and previous arrows**  or**BUTTONS** to view the different carousel sliders.
-* In the about section, the user can interact with the video.
-* A user can click play, volume or pause the video and play the video, or reduce the volune
+The user can click on the arrows on the side of the image to go to the next slider or to go to the previous slider. The user can also click the **carousel indicators** instead of the arrows.
+
+
+#### About ####
+
+The about page features two paragraphs and a video. The paragraphs gives the user a brief information about Safaris in Botswana without overwhelning the user.
+
+ The video keep the user engaged and to show the user a litle bit about the Okavango Delta and the chobe National Park in Botswana. The user can choose to fast forward, pause or watch the video in full screen.
+
+
+#### Places to exlpore ####
+The places to explore page has two images. One for **Okavango Delta** and the other one for **Chobe National Park.** This would be the curious section of the site the user cant wait to see. 
+
+When the user mouse over the Okavango Delta it *display animation and text,* on the other hand the *Chobe National Park diplays none.* The text is to give the user a glimpse about the Okavango Delta. When the user mouse out of the image the animation fades away.
+
+Below ecah image is a bold link. Below the Chobe National park image, the user can see a bold link, underneath that, is the introductory text about the Chobe National Park. When the user hit the link *Chobe National Park* it takes the user to the main page of the Chobe National Park.
+
+
+#### Contact Us ####
+This section features a simple form for the user to get in touch with the site administration. The form request for client first name, last name, email addressand benearth that is a box to leave a message.
+
+The form plugs into email.js to send an email to the website admin. All input fields are required. When the form is successfully submitted, a green pop up message is displayed to the user that email sent successfully.
+
+**Map:**
+To the right of the form is the map of Botswana showving the two places to explore, that is the Okavango Delta and the Chobe National Park. On mouse click on a marker the a tool tip showing the Okavango Delta is displayed to the user. The user can **x** it out. 
+
+The map has all the controls needed to customise the display to the user's needs and allow the user to focus on a particular area of interest.
+
+To the right-hand side, there are controls to zoom in and out, a pegman and full fullscreen view.
+
+
+#### Places to Explore ####
+*Okavango Delta link:*
+In this section when the user click on the link, the official page of the Okavango Delta is Displayed. This page has a header similar to the *Home page* to keep consistency across all pages.The header contains the navibation bar. On the left hand-side is a logo and a menu items.
+
+Bearth the navigation bar, next the user sees a banner of man riding horses on the Delta. The user can have an idea they are not going to just view wildlife, they can also find activities to do while visiting the Okavango Delta depending on the sesaon.
+
+The next section that follows is a detailed introduction about the place. Information about best time to visit the delta, best weather and high season. The user can see the current weather in Kasane Town, which is where the Okavango Delta is located. 
+
+**OpenWeather map API key** was used to create the widget and to fetch recent weather data for Kasane(city). The user can see the weather widget displaying information about the current weather in Kasane.
+
+Below that we have a giraffee banner image to keep the unser engaged on the site.
+
+The next section is about the wildlife found in the okavango Delta. In this section the user can see the icons of wildlife, names and a text showing whetehr a ceratin animal is common, abudant or rare.
+
+ When the user mouse over a certain animal, a tool tip with the actual image of that particular animals pops, on mouse leave the tool tip fade away.
+
+When viewed on mobile, the tooltip only display when the user clicks on the animal icon.
+
+The next section is the Okavango map. The map shows 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 

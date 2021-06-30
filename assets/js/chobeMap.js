@@ -1,42 +1,66 @@
-//This method is called from google map API after load
+/**
+ * initChobeMap : This function is used to instantiate the google map for Chobe  National Park.
+ * It  shows the list of Accomodation, Restaurants, and Game Reserve, with google map marker.
+ *
+ */
 function initChobeMap() {
     //Create a map object using map element
     const map = new google.maps.Map(document.getElementById('chobe-map'), {
         zoom: 6,
-        center: { lat: -19.653257, lng: 25.906792 },
+        center: {
+            lat: -19.653257,
+            lng: 25.906792
+        },
     });
 
     //Creating list of places array for all the map markers
-    const places = [
-        {
+    const places = [{
             name: 'Cresta Mowana Hotel',
             type: 'Accomodation',
-            coords: { lat: -18.2286385, lng: 24.3632235 },
+            coords: {
+                lat: -18.2286385,
+                lng: 24.3632235
+            },
         },
         {
             name: 'Garden Lodge',
             type: 'Accomodation',
-            coords: { lat: -17.8022269, lng: 25.1553267 },
+            coords: {
+                lat: -17.8022269,
+                lng: 25.1553267
+            },
         },
         {
             name: 'Chobe Game Lodge',
             type: 'GameReserve',
-            coords: { lat: -17.84083, lng: 22.6738693 },
+            coords: {
+                lat: -17.84083,
+                lng: 22.6738693
+            },
         },
         {
             name: 'Linyanti Wildlife Reserve',
             type: 'GameReserve',
-            coords: { lat: -18.2278243, lng: 25.3632207 },
+            coords: {
+                lat: -18.2278243,
+                lng: 25.3632207
+            },
         },
         {
             name: 'The Coffee Buzz',
             type: 'Restaurant',
-            coords: { lat: -19.2274172, lng: 24.4632192 },
+            coords: {
+                lat: -19.2274172,
+                lng: 24.4632192
+            },
         },
         {
             name: 'Nandos restaurant Kasane',
             type: 'Restaurant',
-            coords: { lat: -20.2270102, lng: 24.5642178 },
+            coords: {
+                lat: -20.2270102,
+                lng: 24.5642178
+            },
         },
     ];
 

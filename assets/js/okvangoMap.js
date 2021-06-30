@@ -1,43 +1,67 @@
 /*jshint esversion: 6 */
-//This method is called from google map API after load
+/**
+ * initOkavangoMap : This function is used to instantiate the google map for Okavango Delta.
+ * It shows the list of Accomodation, Restaurants, and Game Reserve, with google map marker.
+ *
+ */
 function initOkavangoMap() {
     //Create a map object using map element
     const map = new google.maps.Map(document.getElementById('okavango-map'), {
         zoom: 8,
-        center: { lat: -19.653257, lng: 22.906792 },
+        center: {
+            lat: -19.653257,
+            lng: 22.906792
+        },
     });
 
     //Creating list of places array for all the map markers
-    const places = [
-        {
+    const places = [{
             name: 'Motsentsela Tree Lodge',
             type: 'Accomodation',
-            coords: { lat: -20.0112396, lng: 23.4153301 },
+            coords: {
+                lat: -20.0112396,
+                lng: 23.4153301
+            },
         },
         {
             name: 'Maun Lodge',
             type: 'Accomodation',
-            coords: { lat: -20.0048179, lng: 23.426011 },
+            coords: {
+                lat: -20.0048179,
+                lng: 23.426011
+            },
         },
         {
             name: 'Moremi Game Reserve',
             type: 'GameReserve',
-            coords: { lat: -19.435872, lng: 22.490276 },
+            coords: {
+                lat: -19.435872,
+                lng: 22.490276
+            },
         },
         {
             name: 'Camp Xakanaxa',
             type: 'GameReserve',
-            coords: { lat: -19.1849423, lng: 22.9373825 },
+            coords: {
+                lat: -19.1849423,
+                lng: 22.9373825
+            },
         },
         {
             name: 'Hilarys Restaurant',
             type: 'Restaurant',
-            coords: { lat: -19.9777666, lng: 23.4248807 },
+            coords: {
+                lat: -19.9777666,
+                lng: 23.4248807
+            },
         },
         {
             name: 'Miguels Taco Shack Restaurant',
             type: 'Restaurant',
-            coords: { lat: -19.9757143, lng: 23.4314571 },
+            coords: {
+                lat: -19.9757143,
+                lng: 23.4314571
+            },
         },
     ];
 

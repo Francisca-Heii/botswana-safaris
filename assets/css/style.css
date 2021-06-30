@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body {
 
+body {
     font-family: 'Roboto', sans-serif !important;
     color: rgba(0, 0, 0, 0.87) !important;
     font-weight: lighter;
 }
 
-/* Navigation */
+/* Navigation bar */
 .navbar {
     background-color: #2f2f29;
 }
@@ -34,6 +34,7 @@ body {
     background-color: #6c631a;
     border: none;
 }
+
 .navbar-toggler .line {
     width: 100%;
     float: left;
@@ -41,7 +42,8 @@ body {
     background-color: #fff;
     margin-bottom: 5px;
 }
-.navbar-nav > li {
+
+.navbar-nav>li {
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -83,6 +85,7 @@ body {
 .article-figure-content {
     position: relative;
 }
+
 .article-image-hover {
     display: none;
     position: absolute;
@@ -103,7 +106,7 @@ body {
     left: 0;
     padding: 25px;
     font-size: 15px;
-    
+
 }
 
 .article-detail-link {
@@ -118,7 +121,7 @@ body {
 
 #successmsg {
     text-align: center;
-    color: green; 
+    color: green;
     font-weight: bold;
     padding-top: 25px;
 }
@@ -132,6 +135,7 @@ body {
     color: #000;
     padding: 40px 0px;
 }
+
 .fasize {
     font-size: 22px;
 }
@@ -145,7 +149,7 @@ a.footer-link {
     color: #f5ab5e;
 }
 
-/* Carousel and images style */
+/* Carousel and images */
 .carousel-indicators li {
     width: 15px;
     height: 15px;
@@ -218,7 +222,7 @@ a.footer-link {
 }
 
 
-/*  Wild life animal styles */
+/*  Wild life animal */
 .animal-image {
     height: 75px;
     margin-top: 10px;
@@ -235,7 +239,7 @@ a.footer-link {
     border-radius: 5px;
 }
 
-/* google map style */
+/* google map */
 #okavango-map {
     height: 400px;
 }
@@ -245,17 +249,27 @@ a.footer-link {
 }
 
 
-/* Slider carousel- caption style */
+/* Slider carousel- caption  */
 .carousel-caption {
     margin-top: 20px;
 }
 
+.carousel-caption h1 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .carousel-caption p {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 footer .fa {
     color: #f5ab5e;
+}
+
+.open-weather-widget {
+    display: flex;
+    justify-content: center;
 }
 
 /*  Media query  */
@@ -263,13 +277,16 @@ footer .fa {
     .carousel-caption h1 {
         font-size: 20px;
     }
+
     p {
-        padding: 20px;
+        padding: 10px;
     }
+
     .article-detail-link {
         text-align: center;
         margin-top: 20px;
     }
+
     .wildlife {
         margin-bottom: 20px;
     }
@@ -281,6 +298,7 @@ footer .fa {
     .article-header {
         margin-bottom: 0;
     }
+
     .visitor-detail-link p {
         padding-top: 0;
     }
@@ -288,9 +306,13 @@ footer .fa {
 }
 
 @media (min-width: 768px) {
-	.navbar-expand-md {
-		flex-flow: row wrap;
-	}
+    .navbar-expand-md {
+        flex-flow: row wrap;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 1025px) {
@@ -308,12 +330,13 @@ footer .fa {
     }
 
     .carousel-caption p {
-		font-size: 28px;
-	}
+        font-size: 28px;
+    }
 
     .article-image-hover {
         font-size: 25px;
     }
+
     .article-image-content {
         font-size: 30px;
         font-weight: bold;
@@ -327,9 +350,11 @@ footer .fa {
         padding: 2rem 0;
         font-size: 30px;
     }
+
     .article-section .contact-message {
         font-size: 20px;
     }
+
     #map {
         height: 100%;
     }
@@ -350,20 +375,21 @@ footer .fa {
     }
 
     .carousel-caption h1 {
-		font-size: 45px;
-	}
+        font-size: 45px;
+    }
 
-    
+
     .navbar-expand-md {
-		flex-flow: row nowrap;
-	}
+        flex-flow: row nowrap;
+    }
 }
 
 /* Animation for mouse hover on images */
 .container {
     position: relative;
     width: 100%;
-  }
+}
+
 .overlay {
     position: absolute;
     bottom: 100%;
@@ -375,13 +401,14 @@ footer .fa {
     width: 100%;
     height: 0;
     transition: .5s ease;
-  }
+}
 
-  .container:hover .overlay {
+.container:hover .overlay {
     bottom: 0;
     height: 100%;
-  }
-  .text {
+}
+
+.text {
     /* white-space: nowrap;  */
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -391,10 +418,10 @@ footer .fa {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
+}
 
-  /* Navigation Bar location indicator */
-  .current_page_item {
+/* Navigation Bar location indicator */
+.current_page_item {
     background-color: #6c631a;
     color: #FFF;
 }
@@ -403,7 +430,7 @@ footer .fa {
 /* Centering div tags */
 .center {
     margin: auto;
-  width: 10%;
-  border: 0px solid #73AD21;
-  padding: 0px;
+    width: 10%;
+    border: 0px solid #73AD21;
+    padding: 0px;
 }
