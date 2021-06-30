@@ -58,24 +58,121 @@ The site can be viewed [here.](https://francisca-heii.github.io/botswana-safaris
 ## Users stories
 * As a user I want to visit a website about safaris in Botswana so that I can explore the site and maybe visit the places.
 * As a user I want to see the menu bar so that I can easily navigate the website.
-* As a user I want to see animals slider images, with brief information about the Okavango Delta and Chobe National park so that I can have an the idea about the places.
+* As a user I want to see animal slider images, with brief information about the Okavango Delta and Chobe National park so that I can have an the idea about the places.
 * As a user I want to see an introduction about Botswana safaris and an image so that I can have a better understanding of safaris. 
 * As a user I want to see places to explore available in Botswana safaris so that I can have an idea and information when I prepare myself.
 * As a user I want to see images and content on each place to explore so that I can have ideas on what to expect.
 * As a user I want to see the Botswana map with pinpoints of the Okavango Delta and the Chobe National Park so that I can see where they sit on the map of Botswana.
-* As a user I want to be able to click on any of the images/names of places so that I can be taken to one of the places to explore page depending on which image the user clicked on.
-* As a user when I click on the image/name of a place to explore, I want to see the animal's image banners so that I can have a feeling about the place and what to expect.
-* As a user while I am on the places to explore section, I want to see an introduction about the places for more information.
+* As a user I want to be able to click on any of the images/names of the places so that I can be go to their repective page depending on which image the user clicked on.
+* As a user when I click on the image/name of a particluar place to explore, I want to see the animal's image banners so that I can have a feeling about the place and what to expect.
+* As a user while I am on the places to explore section, I want to see an introduction about the Okavango Delta and Chobe National Park for more information.
 * As a user I want to see information about the best time to visit, best weather and high season so that I can keep that in mind when planning for my safari trip.
-* As a user I want to see images/content about the place, how to get there, lodges and camps so that I can have more information.
-* As a user I want to see if a car rental service is available so that I can have access to drive around or go to shops freely.
+* As a user I want to see images/content about the place, lodges and camps so that I can have more information.
 * As a user I want to see what type of accommodation is available so that I can decide what type of lodgement I would like and if, I need to carry any camping equipment.
 * As a user I want to see what wildlife is found in a particular place, so that I can know what wildlife is found in the Okavango Delta and the Chobe National Park.
 * As a user I want to find out what type of wildlife is either common, abundant or rare in places to explore so that I can choose which place I want to start or go to.
 * As a user I want to compare the Okavango Delta and the Chobe National Park so that I can decide which place I want to explore more.
-* As a user I want to see the contact information for the places to explore so that I can send an inquiry if I need more specific information or when I have a question.
+* As a user I want to see the contact information on places to explore so that I can send an inquiry if I need more specific information or when I have a question.
 * As a user I want to see a map showing restaurants, accommodation and Game reserves found in the Chobe National Park and the Okavango Delta for extra information.
 * As a user I want to see the social links of Botswana safaris so that I can follow them.
+
+
+### User's Journey ###
+
+* As a user I want to visit a website about safaris in Botswana so that I can explore the site and maybe go for a safari tour.
+* As a user I want to see the menu bar so that I can easily navigate the website.
+
+![test 1](assets/images/README-images/user-stories-images/user-story1.jpg)
+
+1. The user begins by entering the **url** of Botswana safaries in order to vist the website. When the user land on the webpage they can see the main page with a clear and strong  black navigation bar with white menu items and an elephant logo siting far to the left. The user can now start to navigate the site to explore more.
+
+ * As a user I want to see animal slider images, with brief information about the Okavango Delta and Chobe National park so that I can have an the idea about the places.
+
+ 2. While the user is still on the home page, they can see the animal slider images and a brief text giving the information about the site.
+
+ * As a user I want to see an introduction about Botswana safaris and an image so that I can have a better understanding of safaris.
+
+ ![test 2](assets/images/README-images/user-stories-images/user-story2.jpg)
+
+3. When the user click *About* on the navigation bar they straight go to the about section. Here they can find an introduction about Botswana safaris and a video so that they can have a better and a clear understanding about the site.
+
+* As a user I want to see places to explore available in Botswana safaris so that I can have an idea and information when I prepare myself.
+
+![test 3](assets/images/README-images/user-stories-images/user-story3.jpg)
+
+4. When the user scrolls down the page, they will come across the places to explore section. Here they can find images about the Okavango Delta and the Chobe National Park.
+By looking at the images the users can have a sence of feeling about the place. They can decide which place they would like to explore and start preparing for their safari travel.
+
+* As a user I want to see images and content about the Okavango Delta and the Chobe National so that I can have ideas about what to expect.
+
+5. The user can find images and content for both the places. when the user mouse hoover on the image they see a nice simple animation whith some text for extra information about that particulat place. Below the text they can see a **link** for both the places to explore and they can easily naviagate to their respective pages.
+
+* As a user I want to see the Botswana map with pinpoints of the Okavango Delta and the Chobe National Park so that I can see where they sit on the map of Botswana.
+
+![test 4](assets/images/README-images/user-stories-images/user-story4.jpg)
+
+6. The user can clearly see the pinpoints for the Okavango Delta and the Chone National Park. The user can decide to view via a map or satellite. The user can zoom in and zoom out the map. They can click on the marker to see nore information.
+
+* As a user I want to be able to click on any of the images/names about the places to explore so that I can be taken to  their official page to explore more page depending on which image the user clicked on.
+
+7. ![test 5](assets/images/README-images/user-stories-images/user-story5.jpg)
+
+8. While the user is still on the home page, can go to the places to explore section. Here they will find a link which will take them to the next page  *on click of the link.* If the user decide to click on the Okavango delta link, The main page to that place with open in a new page. On landing page is the same navigation bar and logo as the one they saw in the home page.
+
+* As a user when I click on the image/name of a particular place to explore, I want to see the animal image banners so that I can have a feeling about the place and what to expect.
+
+9. Here the user can see the animal banner with people horse riding in the delta. The user can have a sense of feeling about the place.  
+
+* As a user while I remain on the places to explore section, in the Okavango Delta, I want to see an introduction about that particularplace for more information.
+
+ ![test 5](assets/images/README-images/user-stories-images/user-storry6.jpg)
+
+10. The user can find introduction about the Okavango Delta in order to have a clear idea about the place. The introduction is short and on point to keep the user wanting to see.
+
+ As a user I want to see information about the best time to visit, best weather and high season so that I can keep that in mind when planning for my safari trip.
+
+ 11. Here the use can easily find the information they are looing for. The can find the best times to visit safaris, the current weather in the Okavango Delta and be informed on the high seasons, so that they can plan for their trip properly.
+
+  * As a user I want to see images/content about the place, how to get there, lodges and camps so that I can have more information.
+
+  ![test 5](assets/images/README-images/user-stories-images/user-story7.jpg)
+
+ 12.  Here the user, is able to find information about lodges, camps and  game reserves via google maps. They can also view more accomodation and game reserves on goople map satellite. 
+
+ *  As a user I want to see what type of accommodation is available so that I can decide what type of lodgement I would like and if, I need to carry any camping equipment
+
+   ![test 5](assets/images/README-images/user-stories-images/user-story7.jpg)
+
+  13.  Here the user can find out again what type of accomodation is available on google maps.
+
+  *  As a user I want to see what wildlife is found in a particular place, so that I can know what wildlife is found in the Okavango Delta and the Chobe National Park.
+
+![test 5](assets/images/README-images/user-stories-images/user-story8.jpg)
+
+14. Here, the user can easily see what wildlife is avaialble in Okavango Delta and the Chobe National Park. When the user mouse over an elephant image, the actual elephant image is shown in a tooltip. If the user is to view  wildlife in the Okavango Delta on thier mobile devices, they would have to tap on an image instead of mouse hoover.
+
+* As a user I want to find out what type of wildlife is either common, abundant or rare in places to explore so that I can choose which place I want to start or go to.
+
+15. The user is able to tell which wildlife is  either abundant, rare or common in both places. They  can easily find that information below each image.
+
+ * As a user I want to compare the Okavango Delta and the Chobe National Park so that I can decide which place I want to explore more.
+
+15. The user can compare the two places to explore based on  wildlife view, game reserves available, accomodation and actitivies. They can also ask for recommendations by sending the admnistration an email prior to their arial or even while they are there.
+
+* As a user I want to see the contact form so that I can send an inquiry if I need more specific information or when I have a question.
+
+![test 5](assets/images/README-images/user-stories-images/user-story9.jpg)
+
+16. The Contact us section has a contact form, which requests client name, last name, email and a box to leave a message.This form plugs into email.js to send an email to the website admin. All input fields are required.
+
+17. When the user has filled in the form with the correct information and click the submit button at the bottom of the page, they will get a green pop up message at the top of the form to say *You have submitted your form succssfully*.
+
+* As a user I want to see the social links of Botswana safaris so that I can follow them.
+
+![test 5](assets/images/README-images/user-stories-images/user-story10.jpg)
+
+18. The user can follow us on social media for the latest news and updates.
+
 
 ### Site Scope :
 
@@ -304,7 +401,7 @@ The next section is the Okavango map. It contains the controls needed to customi
 
     ### Testing ###
     ---
-    
+
     ### W3C ###
     W3C Markup Validation Service and W3C CSS Validation Service have been used to check all the pages of the website for semantic and syntax errors.
 
@@ -333,13 +430,12 @@ The next section is the Okavango map. It contains the controls needed to customi
 **okavango delta page** :
        some **alt " "** attributes erros were detected and fixed that by giving a relevant name to the image referenced. Now no erros detected and showing two warnings.
 
-       ### SHint ###
 
-      
+### JSHint ###
 
+[JShint](https://jshint.com/) was used to validate the JavaScript code for semantic and syntax errors. No warnings or error were found.
+The results are positive and the code is valid.
 
-    ### API ###
-    ---
 * [Openweathermap](https://openweathermap.org/current)
 
      Free API to get the current weather report. Need account to get API key. Rate Limiting: 60 calls per minute and 1,000,000 calls per month.
