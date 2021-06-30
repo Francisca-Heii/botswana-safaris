@@ -149,7 +149,8 @@ on the favicon and social links I used a background color of **Orage** and **whi
 
 
  ## Images ##
-
+ * The images used for banners and wildlife images were collected from [pixabaya](https://pixabay.com/).
+ * Images for slide shows were collected from [pexels.](https://www.pexels.com/)
 
 
 ## Features
@@ -158,16 +159,13 @@ The website uses the same basic layout for each page. Each page has a responsive
 
 Each page has its own image at the top. The home page having slider images about the Okavango Delta and the Chobe National Park. On the other hand, the Okavango Delta and Chobe National Park pages, each features a banner image to grab the user's attention.
 
-
 #### Home ####
-
 The home page features an **image carousel sliders** showing five different images with text one after another with fade effects. The main purpose of this carousel sliders is to make an impact when the user arrives on the site.
 
 The user can click on the arrows on the side of the image to go to the next slider or to go to the previous slider. The user can also click the **carousel indicators** instead of the arrows.
 
 
 #### About ####
-
 The about page features two paragraphs and a video. The paragraphs gives the user a brief information about Safaris in Botswana without overwhelning the user.
 
  The video keep the user engaged and to show the user a litle bit about the Okavango Delta and the chobe National Park in Botswana. The user can choose to fast forward, pause or watch the video in full screen.
@@ -195,12 +193,12 @@ To the right-hand side, there are controls to zoom in and out, a pegman and full
 
 
 #### Places to Explore ####
-*Okavango Delta link:*
-In this section when the user click on the link, the official page of the Okavango Delta is Displayed. This page has a header similar to the *Home page* to keep consistency across all pages.The header contains the navibation bar. On the left hand-side is a logo and a menu items.
+*Okavango Delta and the Chobe National Park links:*
+In this section when the user click on the link, the official page of the Okavango Delta or Chobe National Park is Displayed. Both pages has a header similar to the *Home page* to keep consistency across all pages.The header contains the navibation bar. On the left hand-side is a logo and a menu items.
 
-Bearth the navigation bar, next the user sees a banner of man riding horses on the Delta. The user can have an idea they are not going to just view wildlife, they can also find activities to do while visiting the Okavango Delta depending on the sesaon.
+Bearth the navigation bar, next the user sees a banner of man riding horses on the Delta if the user has clicked the Okavango link or a banner image showing birds if the user has clicked the Chobe National Park link.. The user can have an idea that they are not only going to view wildlife, they can also find activities to do while visiting the Okavango Delta or Chobe National Park depending on the sesaon.
 
-The next section that follows is a detailed introduction about the place. Information about best time to visit the delta, best weather and high season. The user can see the current weather in Kasane Town, which is where the Okavango Delta is located. 
+The next section that follows is a detailed introduction about the places. Information about best time to visit the delta or the Park, best weather and high season. The user can see the current weather in Kasane Town, which is where the Okavango Delta is located. 
 
 **OpenWeather map API key** was used to create the widget and to fetch recent weather data for Kasane(city). The user can see the weather widget displaying information about the current weather in Kasane.
 
@@ -212,7 +210,14 @@ The next section is about the wildlife found in the okavango Delta. In this sect
 
 When viewed on mobile, the tooltip only display when the user clicks on the animal icon.
 
-The next section is the Okavango map. The map shows 
+The next section is the Okavango map. It contains the controls needed to customize the display to the user's needs and to allow the user to focus on a specific area of interest. On the left-hand side, there are controls to the map to view on full screen,zoom in and out. To the left the user can choose to view either on map or setalite. The user can click on the marker to see places to lodge, eat and game reserves available in the Okavango Delta.
+
+
+
+
+
+
+
 
 
 
