@@ -431,6 +431,41 @@ The next section is the Okavango map. It contains the controls needed to customi
        some **alt " "** attributes erros were detected and fixed that by giving a relevant name to the image referenced. Now no erros detected and showing two warnings.
 
 
+## Responsiveness of the website ##
+---
+
+* Chrome Developer tools and AM I Reponsive was used to test the responsiveness of the webiste on different device screen sizes.
+
+NOTE:
+
+* I noticed that on Iphone 375 text on the carousel slider image 1 and 2 is being pushed to the top of the naviagtion bar which lead to difficulties in reading.
+
+* The same issue is present agin in Iphone S/5E
+
+![](assets/images/responsive-images/responsive1.jpg)
+
+## Browser Compatability ##
+
+![](assets/images/responsive-images/responsive3.jpg)
+
+* The website is compatable on most browsers. 
+
+* This was tested on Chrome, Opera, Firefox and Microsoft edge browsers.
+
+*I noticed that on Iphone 375 text on the carousel slider image 1 and 2 is being pushed to the top of the naviagtion bar which lead to difficulties in reading.
+
+
+
+## Bugs Discovered: ##
+* The main issue I faced was when implementing the maps as I had to show all the coordinates of restaurants, game reserve and accommodation.
+
+* The coordinates found on the web were not exactly available in Google maps. I did multiple rounds of coordinate verification, and adjusted the zoom size of map accordingly for a better view.
+
+* I also faced a challenge to fix some of the bugs in css which were related to responsiveness and carousel slider text. 
+
+* To fix the responsiveness I added some breakpoints on certain parts.
+
+
 ### JSHint ###
 
 [JShint](https://jshint.com/) was used to validate the JavaScript code for semantic and syntax errors. No warnings or error were found.
@@ -510,13 +545,12 @@ Go to GitHub
 
 ## Credits ##
 ---
-**All the written subject's content provided on the website is the result of my research and are my own production**
 
 Resources used include: 
 
 * [Botswana Toursim](https://www.botswanatourism.co.bw/)
 
-* [Chobe NationalmPark](https://www.chobe.com/)
+* [Chobe NationalmPark](https://www.chobe.com/) 
 
 * [Guide to visiting Chobe](https://drinkteatravel.com/guide-chobe-national-park-botswana/)
 
@@ -524,8 +558,27 @@ Resources used include:
 
 * [Okavango Delta](https://www.okavango.com/)
 
+* Text in the website from [Botswana Safaris](https://www.kuoni.co.uk/botswana/safaris)
+
+* To structure the website I got ideas here [Bootstrap Grid System](https://getbootstrap.com/docs/4.0/getting-started/download/)
+
+* Most references was taken from site for reference [W3Shools](https://www.w3schools.com/) and [satck overflow](https://stackoverflow.com/)
+
+* Code reference [CSS-Tricks](https://css-tricks.com/)
+
+* Code reference [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [EloquentJavaScript](https://eloquentjavascript.net/)
 
 
+## Acknowledgments ##
+---
+
+I would like to thank my Supervisor Precoius Ijele for his guidance and pointing me out to the right direction. 
+
+Tutor support especially Michael, he  has been very helful and giving me directions oh how to fix some of the bugs.
+
+Code Institiute team who have been a great source of support and my fellow colleagues from slack community.
+
+To conclude I cannot forget to thank my friends for their unconditional support.
 
 
 
